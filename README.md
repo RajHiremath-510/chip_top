@@ -63,3 +63,10 @@ VLSI Freshers
 ASIC Synthesis learners
 
 Interview preparation for RTL → Netlist flow
+
+---
+
+## 📂 Project Documentation
+Detailed project documentation (report / flow explanation) is available here:  
+https://drive.google.com/file/d/1wkCxk2GyQNiErFEtTfVhNjUc_QZ-NkMK/view?usp=sharing
+
