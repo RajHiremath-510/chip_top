@@ -1,14 +1,16 @@
+````markdown
 # CHIP_TOP – RTL to Gate-Level Synthesis
 
-This repository demonstrates a complete **RTL to Gate-Level Synthesis flow**
-using **Synopsys Design Compiler**.
+This repository demonstrates a complete **RTL to Gate-Level Synthesis** flow using
+**Synopsys Design Compiler**.
 
-The project is created mainly for **learning and interview preparation** and
-shows how an industry-style synthesis script is written and executed.
+The project is created mainly for **learning and interview preparation** and shows how an
+industry-style synthesis script is written and executed.
 
 ---
 
 ## 🎯 Project Objective
+
 Convert RTL (Verilog) into a **gate-level netlist** while meeting:
 - Timing constraints
 - Area optimization
@@ -17,11 +19,13 @@ Convert RTL (Verilog) into a **gate-level netlist** while meeting:
 ---
 
 ## 🛠️ Tool Used
-- **Synopsys Design Compiler**
+
+Synopsys Design Compiler
 
 ---
 
 ## 🔄 Synthesis Flow
+
 1. Environment setup  
 2. RTL analysis and elaboration  
 3. Library linking (HVT / LVT / RVT)  
@@ -39,43 +43,53 @@ cd chip_top/synth
 csh
 source /home/tools/synopsys/cshrc_synopsys
 dc_shell -output_log_file ./outputs/synthesis.log
+````
+
 Inside Design Compiler:
 
-tcl
-Copy code
+```tcl
 source scripts/run_synthesis.tcl
-📦 Outputs Generated
+```
+
+---
+
+## 📦 Outputs Generated
 
 Gate-level Verilog netlist
 
-📊 Reports Generated
+---
+
+## 📊 Reports
 
 Timing report
-
 Area report
-
 Power report
 
-👥 Intended Audience
+---
+
+## 👥 Intended Audience
 
 VLSI Freshers
-
 ASIC Synthesis Learners
-
 Interview preparation for RTL to Netlist flow
 
-📘 Project Documentation
+---
+
+## 📘 Project Documentation
 
 Detailed project documentation is available here:
-https://drive.google.com/file/d/1wkCxk2GyQNiErFEtTfVhNjUc_QZ-NkMK/view?usp=sharing
+[https://drive.google.com/file/d/1wkCxk2GyQNiErFEtTfVhNjUc_QZ-NkMK/view?usp=sharing](https://drive.google.com/file/d/1wkCxk2GyQNiErFEtTfVhNjUc_QZ-NkMK/view?usp=sharing)
 
-👤 Author & Contact
+---
+
+## 👤 Author & Contact
 
 Rajshekhar S Hiremath
 ASIC / VLSI Synthesis & Physical Design Enthusiast
 
-🌐 Portfolio: https://rajhiremath-portfolio.lovable.app/
+Portfolio: [https://rajhiremath-portfolio.lovable.app/](https://rajhiremath-portfolio.lovable.app/)
+LinkedIn: [https://www.linkedin.com/in/raj-hiremath-88a707298](https://www.linkedin.com/in/raj-hiremath-88a707298)
+Email: [raj.hiremath2004@gmail.com](mailto:raj.hiremath2004@gmail.com)
 
-🔗 LinkedIn: https://www.linkedin.com/in/raj-hiremath-88a707298
-
-📧 Email: raj.hiremath2004@gmail.com
+```
+```
